@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-07T22:08:26 IST" name="Suite" finished-at="2021-08-07T22:08:53 IST" duration-ms="27726">
+    <groups>
+    </groups>
+    <test started-at="2021-08-07T22:08:26 IST" name="Test" finished-at="2021-08-07T22:08:53 IST" duration-ms="27726">
+      <class name="com.capstone.HomePage">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.capstone.HomePage@f8c1ddd]" started-at="2021-08-07T22:08:26 IST" name="launch" finished-at="2021-08-07T22:08:31 IST" duration-ms="5097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Login()[pri:0, instance:com.capstone.HomePage@f8c1ddd]" started-at="2021-08-07T22:08:31 IST" name="Login" finished-at="2021-08-07T22:08:40 IST" duration-ms="9194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="homeLinks()[pri:0, instance:com.capstone.HomePage@f8c1ddd]" started-at="2021-08-07T22:08:40 IST" name="homeLinks" finished-at="2021-08-07T22:08:52 IST" duration-ms="12168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLinks -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:com.capstone.HomePage@f8c1ddd]" started-at="2021-08-07T22:08:52 IST" name="exit" finished-at="2021-08-07T22:08:53 IST" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.capstone.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
