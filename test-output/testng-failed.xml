@@ -5,9 +5,9 @@
     <classes>
       <class name="com.capstone.HomePage">
         <methods>
+          <include name="AddToCart"/>
           <include name="launch"/>
           <include name="exit"/>
-          <include name="homeLinks"/>
         </methods>
       </class> <!-- com.capstone.HomePage -->
     </classes>

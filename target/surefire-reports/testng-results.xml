@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-07T22:08:26 IST" name="Suite" finished-at="2021-08-07T22:08:53 IST" duration-ms="27726">
+  <suite started-at="2021-08-08T15:23:44 IST" name="Suite" finished-at="2021-08-08T15:24:26 IST" duration-ms="41609">
     <groups>
     </groups>
-    <test started-at="2021-08-07T22:08:26 IST" name="Test" finished-at="2021-08-07T22:08:53 IST" duration-ms="27726">
+    <test started-at="2021-08-08T15:23:44 IST" name="Test" finished-at="2021-08-08T15:24:26 IST" duration-ms="41609">
       <class name="com.capstone.HomePage">
-        <test-method is-config="true" signature="launch()[pri:0, instance:com.capstone.HomePage@f8c1ddd]" started-at="2021-08-07T22:08:26 IST" name="launch" finished-at="2021-08-07T22:08:31 IST" duration-ms="5097" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.capstone.HomePage@70be0a2b]" started-at="2021-08-08T15:23:44 IST" name="launch" finished-at="2021-08-08T15:23:48 IST" duration-ms="4418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="Login()[pri:0, instance:com.capstone.HomePage@f8c1ddd]" started-at="2021-08-07T22:08:31 IST" name="Login" finished-at="2021-08-07T22:08:40 IST" duration-ms="9194" status="PASS">
+        <test-method signature="AddToCart()[pri:0, instance:com.capstone.HomePage@70be0a2b]" started-at="2021-08-08T15:23:49 IST" name="AddToCart" finished-at="2021-08-08T15:24:09 IST" duration-ms="20278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method signature="Login()[pri:0, instance:com.capstone.HomePage@70be0a2b]" started-at="2021-08-08T15:24:09 IST" name="Login" finished-at="2021-08-08T15:24:13 IST" duration-ms="4309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="homeLinks()[pri:0, instance:com.capstone.HomePage@f8c1ddd]" started-at="2021-08-07T22:08:40 IST" name="homeLinks" finished-at="2021-08-07T22:08:52 IST" duration-ms="12168" status="PASS">
+        <test-method signature="homeLinks()[pri:0, instance:com.capstone.HomePage@70be0a2b]" started-at="2021-08-08T15:24:13 IST" name="homeLinks" finished-at="2021-08-08T15:24:24 IST" duration-ms="11334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeLinks -->
-        <test-method is-config="true" signature="exit()[pri:0, instance:com.capstone.HomePage@f8c1ddd]" started-at="2021-08-07T22:08:52 IST" name="exit" finished-at="2021-08-07T22:08:53 IST" duration-ms="1183" status="PASS">
+        <test-method is-config="true" signature="exit()[pri:0, instance:com.capstone.HomePage@70be0a2b]" started-at="2021-08-08T15:24:24 IST" name="exit" finished-at="2021-08-08T15:24:26 IST" duration-ms="1150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->

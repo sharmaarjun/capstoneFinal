@@ -3,10 +3,15 @@ package com.capstone;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterClass;
 
 public class HomePage {
@@ -37,6 +42,16 @@ public class HomePage {
 		Locators lc = new Locators(driver);
 		lc.Login("kn@gmail.com", "12345");
 		Thread.sleep(3000);
+	}
+	
+	@Test
+	public void AddToCart() throws InterruptedException, IOException {
+		driver.get("http://localhost:5555/medicare/home");
+		System.out.println("Add To Cart Flow");
+		Locators lc =new Locators(driver);
+		lc.AddToCart("kn@gmail.com", "12345", "4242424242424242", "11", "22", "125");
+		System.out.println("Screenshot Added");
+		
 	}
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="31.008" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="44.433" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Arjun Sharma\eclipse-workspace\com.capstone\driver\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Arjun Sharma\AppData\Local\Temp\surefire12904921325600157614\surefirebooter4029091876846293515.jar C:\Users\Arjun Sharma\AppData\Local\Temp\surefire12904921325600157614 2021-08-07T22-08-18_550-jvmRun1 surefire2824037931791678081tmp surefire_015538965305570557770tmp"/>
+    <property name="sun.java.command" value="C:\Users\Arjun Sharma\AppData\Local\Temp\surefire7588772310968208264\surefirebooter9343066608628558912.jar C:\Users\Arjun Sharma\AppData\Local\Temp\surefire7588772310968208264 2021-08-08T15-23-37_842-jvmRun1 surefire11385436999427882831tmp surefire_012359287596349070474tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Arjun Sharma\eclipse-workspace\com.capstone\target\test-classes;C:\Users\Arjun Sharma\eclipse-workspace\com.capstone\target\classes;C:\Users\Arjun Sharma\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Arjun Sharma\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Arjun Sharma\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Arjun Sharma\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Arjun Sharma\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Arjun Sharma\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Arjun Sharma\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Arjun Sharma\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Arjun Sharma\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Arjun Sharma\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Arjun Sharma\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Arjun Sharma\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Arjun Sharma\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Arjun Sharma\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Arjun Sharma\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Arjun Sharma\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Arjun Sharma\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Arjun Sharma\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Arjun Sharma\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Arjun Sharma\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Arjun Sharma\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Arjun Sharma\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Arjun Sharma\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Arjun Sharma\AppData\Local\Temp\surefire12904921325600157614\surefirebooter4029091876846293515.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Arjun Sharma\AppData\Local\Temp\surefire7588772310968208264\surefirebooter9343066608628558912.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.2+8"/>
@@ -56,18 +56,23 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="Login" classname="com.capstone.HomePage" time="9.187">
-    <system-out><![CDATA[Login Flow
+  <testcase name="AddToCart" classname="com.capstone.HomePage" time="20.256">
+    <system-out><![CDATA[Add To Cart Flow
+Your Order is Confirmed!!
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 13862
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 24564
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 07, 2021 10:08:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 08, 2021 3:23:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="homeLinks" classname="com.capstone.HomePage" time="12.155">
+  <testcase name="Login" classname="com.capstone.HomePage" time="4.303">
+    <system-out><![CDATA[Login Flow
+]]></system-out>
+  </testcase>
+  <testcase name="homeLinks" classname="com.capstone.HomePage" time="11.337">
     <system-out><![CDATA[Medicare Project Started
 About
 Contact
